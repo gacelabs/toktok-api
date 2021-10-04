@@ -3,6 +3,7 @@
 	"name": "gacelabs/toktok-api",
 	"type": "plugin",
 	"license": "MIT",
+	"readme": "README.md",
 	"authors": [
 		{
 		    "name": "Gacelabs, Inc",
