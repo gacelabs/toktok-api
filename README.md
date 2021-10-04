@@ -6,10 +6,11 @@ How to manage toktok deliveries thru Backend / end point calls
 * PHP 7.0 and up
 
 ## Installation 
-Install with composer 
+with composer 
 ```
 composer require gacelabs/toktok-api 1.0.0
 ```
+[with zip](https://github.com/gacelabs/toktok-api/archive/refs/heads/main.zip) `https://github.com/gacelabs/toktok-api/archive/refs/heads/main.zip`
 
 ## Declarations
 ```
@@ -25,6 +26,7 @@ $api = new ToktokApi;
 There are two types of end point list:
 * portal 
 * website
+
 This is assigned in the `endpoint_list($type)` private method, where `$type` is (protal or website).
 
 Found in [Line 185](https://github.com/gacelabs/toktok-api/blob/main/ToktokApi.php)
