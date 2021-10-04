@@ -3,6 +3,12 @@
 	"name": "gacelabs/toktok-api",
 	"type": "plugin",
 	"license": "MIT",
+	"authors": [
+		{
+		    "name": "Gacelabs, Inc",
+		    "email": "gacelabs.inc@gmail.com"
+		}
+	],
 	"require": {
 		"php": ">=7.0"
 	}
