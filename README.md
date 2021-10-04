@@ -8,7 +8,7 @@ How to manage toktok deliveries thru Backend / end point calls
 ## Installation 
 with composer 
 ```
-composer require gacelabs/toktok-api 1.0.0
+composer require gacelabs/toktok-api
 ```
 [with zip](https://github.com/gacelabs/toktok-api/archive/refs/heads/main.zip) `https://github.com/gacelabs/toktok-api/archive/refs/heads/main.zip`
 
