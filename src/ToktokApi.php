@@ -193,9 +193,9 @@ class ToktokApi {
 				'fetch_riders' => 'sys/toktok_riders/rider_summary_list_table?start=0&length=100&reg_status=1&order[0][column]=0',
 				'rider_ids' => 'app/deliveries/getConsumerDriverId/',
 				'check_orders' => 'app/deliveries/deliveries_operator_list_table/',
-				'view_delivery' => 'app/deliveries/view_deliveries/', // call check_orders end points to get parameter delivery_id hash
+				'view_delivery' => 'app/deliveries/view_deliveries/', // call check_orders end point to get parameter delivery_id hash
 				'active_places' => 'sys/pickup_dropoff_point/map_pickup_dropoff_point_list',
-				'rider_by_id' => 'app/driver/get_driver_by_id/', // driver_id=NnVqclFUY2RIbkk5Q3JKRi9lTTc2QT09 (found in )
+				'rider_by_id' => 'app/driver/get_driver_by_id/', // driver_id=NnVqclFUY2RIbkk5Q3JKRi9lTTc2QT09 (found in rider_ids end point)
 				'driver_list' => 'app/driver/driver_list_table/',
 				'vehicle_types' => 'app/enterprise_deliveries/fetchVehicleTypes',
 			];
@@ -206,10 +206,10 @@ class ToktokApi {
 				'validate' => 'app/websiteBooking/validate_website_inputs',
 				'otp' => 'app/websiteBooking/send_otp?mobile_number=',
 				'post_delivery' => 'app/websiteBooking/operatorPostDelivery',
-				'rider_location' => 'app/trackBooking/getDriverLastLocation/', // call check_orders end points to get parameter delivery_id hash
+				'rider_location' => 'app/trackBooking/getDriverLastLocation/', // call check_orders end point to get parameter delivery_id hash
 				'cancel_reasons' => 'app/trackBooking/get_cancellation_categories/',
 				'confirm_cancel' => 'app/trackBooking/confirmCancelBooking/', // (parameters extracted from: deliveryId=view_delivery and categoryId=cancel_reasons) end points
-				'verify_delivery' => 'app/trackBooking/verifyDeliveryId/', // call check_orders end points to get parameter delivery_id hash
+				'verify_delivery' => 'app/trackBooking/verifyDeliveryId/', // call check_orders end point to get parameter delivery_id hash
 			];
 		}
 		return [];
