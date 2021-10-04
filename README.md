@@ -29,7 +29,7 @@ There are two types of end point list:
 
 This is assigned in the `endpoint_list($type)` private method, where `$type` is (protal or website).
 
-Found in [Line 185](https://github.com/gacelabs/toktok-api/blob/main/ToktokApi.php)
+Found in [Line 184](https://github.com/gacelabs/toktok-api/blob/main/ToktokApi.php#L184)
 
 ## Example
 To get toktok pricing and delivery directions, 
