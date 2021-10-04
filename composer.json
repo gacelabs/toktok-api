@@ -1,0 +1,9 @@
+{
+	"description": "Toktok API",
+	"name": "toktok-api",
+	"type": "plugin",
+	"license": "MIT",
+	"require": {
+		"php": ">=5.3.7"
+	}
+}
