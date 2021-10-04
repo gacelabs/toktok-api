@@ -58,7 +58,7 @@ Posting your order via toktok api:
 $api->app_request('post_delivery', $toktok_post);
 if ($api->success) {
   // get results here
-  $data = $api->response['result'];
+  $data = $api->response;
 } else {
   // throw $api->response error here
 }
