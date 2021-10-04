@@ -8,4 +8,4 @@ Required: PHP version 7 to latest
 ************
 Installation
 ************
-"composer require gacelabs/toktok-api
+"composer require gacelabs/toktok-api"
