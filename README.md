@@ -8,20 +8,20 @@ How to manage toktok deliveries thru Backend / end point calls
 
 ## Installation 
 with composer 
-```
+```cli
 composer require gacelabs/toktok-api
 ```
 [with zip](https://github.com/gacelabs/toktok-api/archive/refs/heads/main.zip) `https://github.com/gacelabs/toktok-api/archive/refs/heads/main.zip`
 
 ## Declarations
-```
+```php
 define('TOKTOK_USER', '<YOUR PORTAL USERNAME>');
 define('TOKTOK_PASSWORD', '<YOUR PORTAL PASSWORD>');
 define('REFERRAL_CODE', '<YOUR TOKTOK REFERRAL CODE>');
 ```
 
 ## Usage
-```
+```php
 $api = new ToktokApi;
 ```
 There are two types of end point list:
@@ -37,7 +37,7 @@ To get toktok pricing and delivery directions,
 You can use this methos as your helper [toktok_price_directions_format.php](https://github.com/gacelabs/toktok-api/blob/main/helper/toktok_price_directions_format.php).
 
 (Please see [$toktok_post](https://github.com/gacelabs/toktok-api/blob/main/helper/toktok_post_format.php) format).
-```
+```php
 $pricing = price_and_directions($api, $toktok_post)
 
 $api->app_request('price_and_directions', $pricing);
@@ -53,7 +53,7 @@ if ($api->success) {
 }
 ```
 Posting your order via toktok api:
-```
+```php
 $api->app_request('post_delivery', $toktok_post);
 if ($api->success) {
   // get results here
