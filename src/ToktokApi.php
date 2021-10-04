@@ -15,7 +15,7 @@ class ToktokApi {
 
 	public function __construct()
 	{
-		if (!defined(TOKTOK_USER) AND !defined(TOKTOK_PASSWORD)) {
+		if (!defined('TOKTOK_USER') AND !defined('TOKTOK_PASSWORD')) {
 			throw new Exception("Error Processing Request, Please set constants TOKTOK_USER and TOKTOK_PASSWORD as your toktok protal credentials", 400);
 		} else {
 			// initial request with login data
