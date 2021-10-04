@@ -2,5 +2,5 @@
 How to manage toktok deliveries thru Backend / end point calls
 
 ************
-Requirements
+Requirements: PHP version 7 to latest
 ************
