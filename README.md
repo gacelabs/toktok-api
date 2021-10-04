@@ -22,7 +22,7 @@ define('REFERRAL_CODE', '<YOUR TOKTOK REFERRAL CODE>');
 
 ## Usage
 ```php
-include ('path/to/ToktokApi.php')
+include ('path/to/ToktokApi.php');
 $api = new ToktokApi;
 ```
 There are two types of end point list:
