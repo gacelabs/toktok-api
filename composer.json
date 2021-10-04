@@ -1,6 +1,6 @@
 {
 	"description": "Toktok API",
-	"name": "toktok-api",
+	"name": "gacelabs/toktok-api",
 	"type": "plugin",
 	"license": "MIT",
 	"require": {
