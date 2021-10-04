@@ -39,7 +39,7 @@ You can use this methos as your helper [toktok_price_directions_format.php](http
 
 (Please see [$toktok_post](https://github.com/gacelabs/toktok-api/blob/main/helper/toktok_post_format.php) format).
 ```php
-$pricing = price_and_directions($api, $toktok_post)
+$pricing = price_and_directions($api, $toktok_post);
 
 $api->app_request('price_and_directions', $pricing);
 if ($api->success) {
