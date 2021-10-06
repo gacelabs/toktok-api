@@ -29,7 +29,7 @@ There are two types of end point list:
 * portal 
 * website
 
-This is assigned in the `endpoint_list($type)` private method, where `$type` is (protal or website).
+This is assigned in the `endpoint_list($type)` private method, where `$type` is (portal or website).
 
 Found in [Line 184](https://github.com/gacelabs/toktok-api/blob/main/src/ToktokApi.php#L184)
 
