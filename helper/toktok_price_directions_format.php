@@ -4,7 +4,7 @@
   {
     $data = (array) $data;
     $key = array_search($value, array_column($data, $column));
-    // debug($key, 1);
+    
     if (is_numeric($key)) {
       return $results ? $data[$key] : true;
     }
