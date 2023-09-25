@@ -65,7 +65,7 @@ if ($api->success) {
 ```
 IF YOU LIKE MY WORK HERE? ANY AMOUNT OF DONATIONS WILL BE GLADLY APPRECIATED 🙌🙏🤝
 
-[PAY PAL.ME](https://www.paypal.com/donate?hosted_button_id=HC7H6MBGR9SQW)
+[PAY PAL.ME](https://www.paypal.com/paypalme/datapushthru?country.x=PH&locale.x=en_US)
 
 THANK YOU!
 
